@@ -1,0 +1,50 @@
+# Ignore virtual environment directory
+lenenv/
+.venv/
+env/
+ENV/
+venv/
+pyenv/
+
+# Ignore environment variable files
+.env
+.env.*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore logs and databases
+*.log
+*.sqlite3
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore vscode config files (if using VS Code)
+.vscode/
+
+# Ignore Python package files
+*.egg
+*.egg-info/
+dist/
+build/
+*.wheel
+
+# Ignore testing outputs
+.tox/
+.coverage
+htmlcov/
+
+# Ignore IDE-specific files (e.g., PyCharm)
+.idea/
+
+# Ignore streamlit cache folder
+.streamlit/
+
+# Ignore node_modules for any front-end (if applicable)
+node_modules/
